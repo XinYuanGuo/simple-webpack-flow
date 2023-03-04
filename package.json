@@ -1,0 +1,25 @@
+{
+  "name": "simple-webpack-flow",
+  "version": "1.0.0",
+  "description": "简易版的webpack工作流",
+  "main": "index.js",
+  "scripts": {
+    "debugger": "node ./debugger.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XinYuanGuo/simple-webpack-flow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XinYuanGuo/simple-webpack-flow/issues"
+  },
+  "homepage": "https://github.com/XinYuanGuo/simple-webpack-flow#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
