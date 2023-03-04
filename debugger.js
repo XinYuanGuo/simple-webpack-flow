@@ -1,8 +1,10 @@
-const webpack = require("webpack");
+const webpack = require("./custom-webpack/webpack");
 const webpackConfig = require("./webpack.config");
-const complier = webpack(webpackConfig);
+const compiler = webpack(webpackConfig);
 
-complier.run((err, stats) => {
-  console.log("err", err);
-  console.log("stats", stats);
+/**
+ * 4. 执行compiler的run方法开始编译
+ */
+compiler.run((err, stats) => {
+  console.log("stats", stats.toJson());
 });

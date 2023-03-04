@@ -1,1 +1,3 @@
-export const title = "hello";
+const title = "title";
+
+module.exports = title;
